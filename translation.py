@@ -10,7 +10,8 @@ BATCH_MESSAGE = BATCH = """
 **I'll handle the rest and get those links shortened or converted in a short time! 💪**
 """
 
-USERNAME_TEXT = """**Current username: {username}**
+USERNAME_TEXT = '''
+**Current username: {username}**
 
 **To set the username that will be automatically replaced with other usernames in the post, use the following command:**
 
@@ -22,7 +23,8 @@ USERNAME_TEXT = """**Current username: {username}**
 
 `/username remove`
 
-**This is a helpful way to make sure that all of your posts have a consistent username. Enjoy! 📎**"""
+**This is a helpful way to make sure that all of your posts have a consistent username. Enjoy! 📎**
+'''
 
 METHOD_MESSAGE = """
 Current Method: {method}
@@ -58,12 +60,14 @@ METHOD_REPLY_MARKUP = InlineKeyboardMarkup(
 
 START_MESSAGE = '''**Hi, {}**
 **I Am Urlshortx.com, Bulk Link Converter. I Can Convert Links Directly From Your urlshortx.com Account.**
-**
-1. Go To 👉 https://urlshortx.com/member/tools/api
 
-2. Then Copy API Key
+**1. SignUp On Shortx 👉 https://urlshortx.com/ref/Arisu009**
 
-3. Then long press /api command then paste your API Key (see example to understand more...)**
+**2. Go To 👉 https://urlshortx.com/member/tools/api**
+
+**3. Then Copy API Key**
+
+**4. Then long press /api command then paste your API Key (see example to understand more...)**
 
 **/api Your API Key 
 (See Example.👇)
