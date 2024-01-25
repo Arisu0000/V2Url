@@ -32,7 +32,7 @@ async def private_link_handler(c: Client, message: Message):
             return await message.reply_text(vld)
         try:
             txt = await message.reply(
-                "`💰 Loading...`",
+                "`Converting..`",
                 quote=True,
             )
 
