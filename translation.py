@@ -10,6 +10,20 @@ BATCH_MESSAGE = BATCH = """
 **I'll handle the rest and get those links shortened or converted in a short time! 💪**
 """
 
+USERNAME_TEXT = """**Current username: {username}**
+
+**To set the username that will be automatically replaced with other usernames in the post, use the following command:**
+
+`/username your_username`
+
+**(Note: Do not include the @ symbol in your username.)**
+
+**To remove the current username, use the following command:**
+
+`/username remove`
+
+**This is a helpful way to make sure that all of your posts have a consistent username. Enjoy! 📎**"""
+
 METHOD_MESSAGE = """
 Current Method: {method}
     
