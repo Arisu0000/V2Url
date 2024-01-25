@@ -25,7 +25,6 @@ from translation import (
     ADMINS_MESSAGE,
     ABOUT_TEXT_REPLY_MARKUP,
     HELP_MESSAGE_REPLY_MARKUP,
-    USER_ABOUT_MESSAGE,
     START_MESSAGE_REPLY_MARKUP,
 )
 from utils import get_me_button
