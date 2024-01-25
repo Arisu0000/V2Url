@@ -379,11 +379,11 @@ async def create_server():
 
 async def set_commands(app):
     COMMANDS = [
-        BotCommand("start", "Begins Earning Journey With Shortx!"),
-        BotCommand("api", "Set Your Urlshortx Account Api_Key"),
-        BotCommand("header", "Set Text On Top Every Post"),
-        BotCommand("footer", "Set Text On Down Every Post"),
-        BotCommand("me", "User settings ㊂"),
+        BotCommand("start", "|| Begins Earning Journey With Shortx!"),
+        BotCommand("api", "|| Set Your Urlshortx Account Api_Key"),
+        BotCommand("header", "|| Set Text On Top Every Post"),
+        BotCommand("footer", "|| Set Text On Down Every Post"),
+        BotCommand("me", "|| User settings ㊂"),
     ]
 
     await app.set_bot_commands(COMMANDS)
