@@ -19,7 +19,7 @@ def is_enabled(value, default):
 API_ID = int(os.environ.get("API_ID", "24025974"))
 # API Hash from https://my.telegram.org/auth
 API_HASH = os.environ.get("API_HASH", "2abf0406f41a57b540bdefe8b12d114f")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")  # Bot token from @BotFather
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6809564656:AAFzMXyJ5Bqc7k4XjbCNfGPSj20RQhyUQzw")  # Bot token from @BotFather
 ADMINS = (
     [int(i.strip()) for i in os.environ.get("ADMINS").split(",")]
     if os.environ.get("ADMINS")
@@ -28,7 +28,7 @@ ADMINS = (
 
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "UrlShortx24")
 DATABASE_URL = os.environ.get(
-    "DATABASE_URL", None
+    "DATABASE_URL", "mongodb+srv://vasanthtg8:vasanthtg8@cluster0.441zwwt.mongodb.net/?retryWrites=true&w=majority")
 )  # mongodb uri from https://www.mongodb.com/
 OWNER_ID = int(os.environ.get("OWNER_ID", "5549620776"))  # id of the owner
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
