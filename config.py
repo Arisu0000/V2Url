@@ -17,7 +17,7 @@ API_ID = int(os.environ.get("API_ID", "24025974"))
 # API Hash from https://my.telegram.org/auth
 API_HASH = os.environ.get("API_HASH", "2abf0406f41a57b540bdefe8b12d114f")
 # Bot token from @BotFather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "6809564656:AAFzMXyJ5Bqc7k4XjbCNfGPSj20RQhyUQzw")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 # Admin IDs
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS", "6290483448").split(",") if i.strip().isdigit()]
 
