@@ -19,7 +19,7 @@ API_HASH = os.environ.get("API_HASH", "2abf0406f41a57b540bdefe8b12d114f")
 # Bot token from @BotFather
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "6809564656:AAFzMXyJ5Bqc7k4XjbCNfGPSj20RQhyUQzw")
 # Admin IDs
-ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS", "6290483448").split(",") if i.strip().isdigit()]
+ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS", "816494431").split(",") if i.strip().isdigit()]
 
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "UrlShortx24")
 # MongoDB URI from https://www.mongodb.com/
